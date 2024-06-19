@@ -42,18 +42,16 @@ import AccountMenu from './ui/AccountMenu.astro'
       >
         <ul id="LeftLinks" class="flex flex-col lg:flex-row items-stretch [&>li>a]:h-full">
           <li>
-            <a
-              href="#"
-              x-on:mouseover="megamenuOpened = true, openedMegamenu = 'megamenu-1'"
-              @click="megamenuOpened = true, openedMegamenu = 'megamenu-1'"
-              class="py-2 px-3 leading-6 text-base group text-muted-500 dark:text-muted-400 hover:text-muted-600 dark:hover:text-white transition-all duration-300 flex items-center justify-center gap-1"
-            >
+            <a href="#" class="py-2 px-3 leading-6 group text-base text-muted-500 dark:text-muted-400 hover:text-muted-600 dark:hover:text-white transition-all duration-300 flex items-center justify-center gap-1">
               <span>Properties</span>
-              <Icon name="lucide:chevron-down" class="size-4 group-hover:rotate-180 transition-transform duration-300" />
+              <!-- <Icon name="lucide:chevron-down" class="size-4 group-hover:rotate-180 transition-transform duration-300" /> -->
             </a>
           </li>
           <li>
-            <a
+            <a href="#" class="py-2 px-3 leading-6 group text-base text-muted-500 dark:text-muted-400 hover:text-muted-600 dark:hover:text-white transition-all duration-300 flex items-center justify-center gap-1">
+              <span>Rentals</span>
+            </a>
+            <!-- <a
               href="#"
               x-on:mouseover="megamenuOpened = true, openedMegamenu = 'megamenu-2'"
               @click="megamenuOpened = true, openedMegamenu = 'megamenu-2'"
@@ -61,7 +59,7 @@ import AccountMenu from './ui/AccountMenu.astro'
             >
               <span>Rentals</span>
               <Icon name="lucide:chevron-down" class="size-4 group-hover:rotate-180 transition-transform duration-300" />
-            </a>
+            </a> -->
           </li>
           <li>
             <a href="/about" class="py-2 px-3 leading-6 grid place-items-center text-base text-muted-500 dark:text-muted-400 hover:text-muted-600 dark:hover:text-white transition-all duration-300">About</a>
