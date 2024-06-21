@@ -1,7 +1,7 @@
 export const properties: Property[] = [
   {
     name: "Cozy Appartment",
-    photo: "https://via.placeholder.com/350x150",
+    photo: "https://assets.guesty.com/image/upload/v1713836082/ijdct36qekz5hhlem1yj.jpg",
     price: 0.00,
     address: "Address Will Go Here",
     bedrooms: 3,
@@ -11,7 +11,7 @@ export const properties: Property[] = [
 
   {
     name: "Green House",
-    photo: "https://via.placeholder.com/350x150",
+    photo: "https://assets.guesty.com/image/upload/v1713835908/uxuoryoicimc4lnptckl.jpg",
     price: 0.00,
     address: "Address Will Go Here",
     bedrooms: 2,
@@ -20,7 +20,7 @@ export const properties: Property[] = [
   },
   {
     name: "Modern Flat",
-    photo: "https://via.placeholder.com/350x150",
+    photo: "https://assets.guesty.com/image/upload/v1713834639/lwc6kzimpwpoahn2snjp.jpg",
     price: 0.00,
     address: "Address Will Go Here",
     bedrooms: 4,
@@ -29,7 +29,7 @@ export const properties: Property[] = [
   },
   {
     name: "Opulent House",
-    photo: "https://via.placeholder.com/350x150",
+    photo: "https://assets.guesty.com/image/upload/v1713834549/kc4oizqwpj7pby2igjvx.jpg",
     price: 0.00,
     address: "Address Will Go Here",
     bedrooms: 2,
@@ -38,7 +38,7 @@ export const properties: Property[] = [
   },
   {
     name: "Reynald Tower",
-    photo: "https://via.placeholder.com/350x150",
+    photo: "https://assets.guesty.com/image/upload/v1713835764/m9ms3yqqwaetaqgf2fbi.jpg",
     price: 0.00,
     address: "Address Will Go Here",
     bedrooms: 4,
@@ -52,7 +52,7 @@ export const properties: Property[] = [
   },
   {
     name: "Elegant House",
-    photo: "https://via.placeholder.com/350x150",
+    photo: "https://assets.guesty.com/image/upload/v1713834969/fsgrsjmcifwcpjijeldy.jpg",
     price: 0.00,
     address: "Address Will Go Here",
     bedrooms: 3,
@@ -66,7 +66,7 @@ export const properties: Property[] = [
   },
   {
     name: "Minimalist House",
-    photo: "https://via.placeholder.com/350x150",
+    photo: "https://assets.guesty.com/image/upload/v1713835852/vwfjx5kz2rz4a4qkpdm0.jpg",
     price: 0.00,
     address: "Address Will Go Here",
     bedrooms: 5,
@@ -76,29 +76,6 @@ export const properties: Property[] = [
       name: "Alan Smith",
       phone: "(555) 555-4894",
       photo: "/images/avatars/10.webp",
-    },
-  },
-  {
-    name: "Tower Lodge",
-    photo: "https://via.placeholder.com/350x150",
-    price: 0.00,
-    address: "Address Will Go Here",
-    bedrooms: 2,
-    bathroom: 2,
-    livingArea: 130,
-  },
-  {
-    name: "Classic Loft",
-    photo: "https://via.placeholder.com/350x150",
-    price: 0.00,
-    address: "Address Will Go Here",
-    bedrooms: 4,
-    bathroom: 2,
-    livingArea: 225,
-    realtor: {
-      name: "Andrew Hopper",
-      phone: "(555) 555-7894",
-      photo: "/images/avatars/5.webp",
     },
   },
 ];
